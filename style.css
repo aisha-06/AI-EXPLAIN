@@ -110,3 +110,36 @@ form button {
     margin-left: 10px;
     cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    form input, .chatbox input {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .chatbox {
+        max-width: 100%;
+    }
+
+    .chatbox .messages {
+        height: 150px;
+    }
+
+    form button, .chatbox button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
